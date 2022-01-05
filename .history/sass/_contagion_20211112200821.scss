@@ -1,0 +1,47 @@
+.contagion {
+  margin-bottom: 14rem;
+  &-title {
+    text-align: center;
+  }
+  &-heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
+  &-content {
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  &-image img {
+    padding-top: 5rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &-image2 img {
+    transform: translate(-50%, -3rem);
+  }
+  &-info {
+    padding: 5rem 5.2rem 7.8rem 5.3rem;
+    text-align: center;
+  }
+  &-info2 {
+    margin-top: -4rem;
+  }
+  &-name {
+    font-size: 3.6rem;
+    color: var(--green);
+    margin-bottom: 2rem;
+  }
+  &-desc {
+    font-size: 2rem;
+    color: var(--gray);
+  }
+}
+.contagion-content:hover {
+  border: 1px solid var(--orange);
+  transition: all 0.2s linear;
+  transform: translateY(-2px);
+  box-shadow: rgba(241, 112, 6, 0.1) 0px 4px 12px;
+}

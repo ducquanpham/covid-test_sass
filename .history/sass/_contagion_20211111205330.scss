@@ -1,0 +1,16 @@
+.contagion {
+  &-title {
+    text-align: center;
+    & h3 {
+      color: var(--orange);
+    }
+    & h2 {
+      color: var(--green);
+    }
+    & p {
+      color: var(--gray);
+      width: 57rem;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.review {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 64.8rem;
+  }
+  &-images {
+    transform: translateX(-18rem);
+  }
+  &-title {
+    font-size: 2.9rem;
+    color: var(--orange);
+  }
+  &-heading {
+    font-size: 5rem;
+    color: var(--green);
+    margin: 1rem 0;
+  }
+  &-desc {
+    font-size: 2rem;
+    color: var(--gray);
+  }
+  &-button {
+    color: var(--orange);
+    position: relative;
+    margin-top: 3rem;
+    &:before {
+      content: "";
+      position: absolute;
+      border-radius: inherit;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: currentColor;
+      opacity: 0.1;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .review {
+    &-images {
+      transform: translateX(-9rem);
+    }
+    &-content {
+      max-width: 50%;
+    }
+  }
+}

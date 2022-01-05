@@ -1,0 +1,30 @@
+.review {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 64.8rem;
+  }
+  &-images {
+    transform: translateX(-18rem);
+  }
+  &-title {
+    font-size: 2.9rem;
+    color: var(--orange);
+  }
+  &-heading {
+    font-size: 5rem;
+    color: var(--green);
+    margin: 1rem 0;
+  }
+  &-desc {
+    font-size: 2rem;
+    color: var(--gray);
+  }
+  &-button {
+    color: var(--orange);
+    background-color: currentColor;
+  }
+}

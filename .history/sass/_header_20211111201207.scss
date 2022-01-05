@@ -1,0 +1,21 @@
+.header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%)
+  padding-top: 6rem;
+  margin-bottom: 5rem;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-items {
+    padding: 0 4rem;
+    display: inline-block;
+  }
+  &-link {
+    color: var(--green);
+    &:hover {
+      color: var(--orange);
+      transition: all 0.2s linear;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  padding-top: 6rem;
+  margin-bottom: 5rem;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-items {
+    padding: 0 4rem;
+    display: inline-block;
+  }
+  &-link {
+    color: var(--green);
+    &:hover {
+      color: var(--orange);
+      transition: all 0.2s linear;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    &-items {
+      gap: 2rem;
+      background-color: violet;
+    }
+  }
+}

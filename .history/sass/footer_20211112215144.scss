@@ -1,0 +1,37 @@
+.footer {
+  margin-bottom: 3rem;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-list,
+  &-logo {
+    display: flex;
+    list-style: none;
+    gap: 0 2rem;
+  }
+  &-icon {
+    font-size: 3rem;
+    cursor: pointer;
+    &:hover {
+      color: var(--red);
+      transition: all 0.2s linear;
+      transform: translateY(-0.2rem);
+    }
+  }
+  &-typhography {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: var(--green);
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    &-main {
+      flex-wrap: wrap;
+    }
+  }
+}

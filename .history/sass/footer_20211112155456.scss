@@ -1,0 +1,16 @@
+.footer {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-list,
+  &-logo {
+    display: flex;
+    list-style: none;
+    gap: 0 2rem;
+  }
+  &-icon {
+    font-size: 3rem;
+  }
+}

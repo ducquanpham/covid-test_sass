@@ -1,0 +1,17 @@
+.feature {
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  &-content {
+    max-width: 66rem;
+    padding-left: 11.8rem;
+  }
+  &-name {
+    color: var(--green);
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+  }
+}

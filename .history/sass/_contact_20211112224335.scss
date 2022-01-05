@@ -1,0 +1,76 @@
+.contact {
+  margin-bottom: 14.2rem;
+  margin-top: 5rem;
+  &-title {
+    text-align: center;
+    font-size: 6.4rem;
+    color: var(--green);
+    margin-bottom: 4rem;
+  }
+  &-input_focus {
+    padding: 2.5rem;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #b5bfc9;
+    border-radius: 100rem;
+    color: #0d1f36;
+    font-size: 2.2rem;
+    outline: none;
+    background-color: white;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+  }
+  &-form {
+    position: relative;
+  }
+  &-button {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--orange);
+    color: #fff;
+    border-radius: 100rem;
+    right: 21%;
+    top: 10%;
+    padding: 1.8rem 5rem;
+    text-align: center;
+  }
+  &-input_focus::-webkit-input-placeholder {
+    color: #8d97a9;
+  }
+  &-input_focus::-moz-input-placeholder {
+    color: #8d97a9;
+  }
+  &-input_focus:focus {
+    border-color: #ff695b;
+    box-shadow: 0 0 0 4px #ffe2df;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    &-title {
+      font-size: 4rem;
+    }
+    &-name {
+      font-size: 2.8rem;
+    }
+    &-input_focus {
+      width: 70%;
+    }
+    &-button {
+      right: 17%;
+    }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .contact {
+    &-input_focus {
+      width: 100%;
+    }
+    &-button {
+      right: 2%;
+      padding: 1.8rem 2rem;
+    }
+  }
+}

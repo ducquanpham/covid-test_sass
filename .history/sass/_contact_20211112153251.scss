@@ -1,0 +1,47 @@
+.contact {
+  margin-top: 5rem;
+  &-title {
+    text-align: center;
+    font-size: 6.4rem;
+    color: var(--green);
+    margin-bottom: 4rem;
+  }
+  &-input_focus {
+    padding: 2.5rem;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #b5bfc9;
+    border-radius: 100rem;
+    color: #0d1f36;
+    font-size: 2.2rem;
+    outline: none;
+    background-color: white;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+  }
+  &-form {
+    position: relative;
+  }
+  &-button {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--orange);
+    color: #fff;
+    border-radius: 100rem;
+    width: 10rem;
+    height: 3rem;
+    right: 20%;
+    top: 10%;
+  }
+  &-input_focus::-webkit-input-placeholder {
+    color: #8d97a9;
+  }
+  &-input_focus::-moz-input-placeholder {
+    color: #8d97a9;
+  }
+  &-input_focus:focus {
+    border-color: #ff695b;
+    box-shadow: 0 0 0 4px #ffe2df;
+  }
+}

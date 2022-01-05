@@ -1,0 +1,8 @@
+.symtomps {
+  &-images img {
+    background-color: green;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

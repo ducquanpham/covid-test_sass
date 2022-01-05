@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) -29.64%,
+    #fff8f8 45.66%,
+    #b57474 45.66%
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.ab {
+  background-color: red;
+  &-a {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}

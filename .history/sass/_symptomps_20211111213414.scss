@@ -1,0 +1,8 @@
+.symptomps {
+  margin-bottom: 10rem;
+  &-images img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

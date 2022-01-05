@@ -1,0 +1,26 @@
+.contagion {
+  &-title {
+    text-align: center;
+    & h3 {
+      color: var(--orange);
+      font-size: 2.9rem;
+    }
+    & h2 {
+      font-size: 5rem;
+      color: var(--green);
+      margin: 2rem 0;
+    }
+    & p {
+      font-size: 2rem;
+      color: var(--gray);
+      width: 57rem;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  &-heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+}

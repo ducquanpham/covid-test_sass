@@ -1,0 +1,20 @@
+.feature {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  &-content {
+    max-width: 66rem;
+    padding-left: 11.8rem;
+  }
+  &-heading {
+    color: var(--green);
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  &-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}

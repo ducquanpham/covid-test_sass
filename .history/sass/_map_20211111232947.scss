@@ -1,0 +1,15 @@
+.map {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-image img {
+    transform: translateX(-5rem);
+  }
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

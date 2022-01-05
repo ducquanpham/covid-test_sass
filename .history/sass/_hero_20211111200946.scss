@@ -1,0 +1,18 @@
+.hero {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-title {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+  &-heading {
+    font-size: 5.2rem;
+    margin-bottom: 3rem;
+  }
+  &-desc {
+    line-height: 3rem;
+  }
+}

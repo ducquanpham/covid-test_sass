@@ -1,0 +1,13 @@
+.review {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 64.8rem;
+  }
+  &-images {
+    transform: translateX(-6rem);
+  }
+}

@@ -1,0 +1,31 @@
+.feature {
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 66rem;
+    padding-left: 11.8rem;
+  }
+  &-heading {
+    color: var(--green);
+    font-size: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  &-item:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature {
+    &-content {
+      padding-left: 2rem;
+      max-width: 40rem;
+    }
+    &-item {
+      gap: 0 2rem;
+    }
+  }
+}

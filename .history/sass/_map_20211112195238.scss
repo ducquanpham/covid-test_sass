@@ -1,0 +1,43 @@
+.map {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-world img {
+    transform: translateX(-5rem);
+  }
+  &-country {
+    padding: 5.4rem 5.5rem 5.2rem 5.5rem;
+    box-shadow: 0px 7px 95px rgba(0, 0, 0, 0.07);
+    border-radius: 0px;
+  }
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 3rem;
+  }
+  &-price,
+  &-info {
+    display: flex;
+    gap: 0 2rem;
+    align-items: center;
+    cursor: pointer;
+  }
+  &-title {
+    font-size: 4.8rem;
+    color: var(--green);
+    margin-bottom: 3rem;
+  }
+  &-name {
+    font-size: 3.1rem;
+    color: var(--green);
+    font-weight: bold;
+  }
+  & span {
+    color: var(--green);
+    font-size: 2.1rem;
+  }
+}

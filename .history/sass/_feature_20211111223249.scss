@@ -1,0 +1,10 @@
+.feature {
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 66rem;
+  }
+}

@@ -1,0 +1,32 @@
+.map {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-world img {
+    transform: translateX(-5rem);
+  }
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 3rem;
+  }
+  &-price,
+  &-info {
+    display: flex;
+    gap: 0 2rem;
+    align-items: center;
+  }
+  &-name {
+    font-size: 3.1rem;
+    color: var(--green);
+    font-weight: bold;
+  }
+  & span {
+    color: var(--green);
+    font-size: 2.1rem;
+  }
+}

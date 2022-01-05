@@ -1,0 +1,12 @@
+.footer {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-list,
+  &-logo {
+    display: flex;
+    list-style: none;
+  }
+}

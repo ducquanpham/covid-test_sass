@@ -1,0 +1,82 @@
+.wrapper {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container-fluid {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12.8px 42.5px;
+  border-radius: 100rem;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  &--primary {
+    color: var(--red);
+    border: 1px solid currentColor;
+    &:hover {
+      background-color: var(--red);
+      color: #fff;
+      transition: all 0.2s linear;
+    }
+  }
+  &--secondary {
+    background-color: var(--red);
+    color: #fff;
+  }
+}
+.global-text {
+  font-size: 18px;
+  line-height: 167%;
+}
+.center-inline {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title-center {
+  text-align: center;
+  margin-bottom: 11rem;
+  & h3 {
+    color: var(--orange);
+    font-size: 2.9rem;
+  }
+  & h2 {
+    font-size: 5rem;
+    color: var(--green);
+    margin: 2rem 0;
+  }
+  & p {
+    font-size: 2rem;
+    color: var(--gray);
+
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 414px) {
+  .title-center {
+    & p {
+      width: 20rem;
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+  .title-center {
+    & p {
+      width: 100%;
+    }
+  }
+}
